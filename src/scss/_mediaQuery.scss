@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    .nav {
+        min-width: 0px;
+        flex-flow: column wrap;
+        padding: 10px 0;
+    }
+
+    .row {
+        flex-direction: column;
+        min-width: 0;
+        padding: 0 84px;
+
+        & .card {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+    }
+
+}
